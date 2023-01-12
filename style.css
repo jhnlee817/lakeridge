@@ -64,6 +64,24 @@ body {
     height: auto;
 }
 
+.home-text {
+    padding: 1em;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: aliceblue;
+}
+
+table {
+    padding: 1em;
+}
+
+td {
+    text-align: center;
+}
+
 
 @media (max-width: 768px) {
     .toggle-button {
