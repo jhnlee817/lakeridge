@@ -61,22 +61,28 @@ body {
     border-radius: 10px;
 }
 
-.mi-seon {
+.portrait-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.portrait {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    overflow: hidden;
 }
 
 .button-picture {
     border-radius: 10px;
     transition: 0.2s ease-in;
+    height: 250px;
+    width: 225px;
 }
 
 .button-picture:hover {
     cursor: pointer;
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 
 
