@@ -15,6 +15,7 @@ body {
     align-items: center;
     background-color: #333;
     color: white;
+    animation: slideLeft 1.25s ease-in;
 }
 
 .brand-title {
@@ -61,6 +62,17 @@ body {
     border-radius: 10px;
 }
 
+@keyframes slideLeft {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .portrait-container {
     display: flex;
     flex-direction: row;
@@ -71,6 +83,16 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1em;
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .button-picture {
@@ -78,6 +100,8 @@ body {
     transition: 0.2s ease-in;
     height: 250px;
     width: 225px;
+    border: 0px solid;
+    overflow: hidden;
 }
 
 .button-picture:hover {
