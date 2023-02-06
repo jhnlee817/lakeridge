@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F8FFF0;
 }
 
 .navbar {
@@ -109,9 +110,13 @@ body {
     transform: scale(1.02);
 }
 
+.button-name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 .footer {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 table {
@@ -153,5 +158,9 @@ td {
 
     .navbar-links.active {
         display: flex;
+    }
+    
+    .portrait {
+        align-items: start;
     }
 }
