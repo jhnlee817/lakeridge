@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F8FFF0;
 }
 
 .navbar {
@@ -13,6 +14,7 @@ body {
     align-items: center;
     background-color: #333;
     color: white;
+    animation: slideLeft 1.25s ease-in;
 }
 
 .brand-title {
@@ -57,6 +59,17 @@ body {
     width: 100%;
     background-color: white;
     border-radius: 10px;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .banner-picture { 
