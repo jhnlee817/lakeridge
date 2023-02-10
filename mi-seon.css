@@ -74,9 +74,15 @@ body {
     }
 }
 
+.picture-float {
+    float: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 p {
     text-indent: 2em;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
