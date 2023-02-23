@@ -12,7 +12,7 @@ const images = ["images/stockbanner2.jpg","images/stockbanner3.jpg","images/stoc
 const carousel = document.querySelector(".carousel");
 const interval = setInterval(function() {
     startCarousel();
-}, 3000);
+}, 5000);
 var index = 1;
 
 startCarousel = () => {

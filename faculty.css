@@ -97,8 +97,7 @@ body {
 }
 
 .button-picture {
-    border-radius: 10px;
-    transition: 0.2s ease-in;
+    border-radius: 50%;
     height: 250px;
     width: 225px;
     border: 0px solid;
@@ -107,7 +106,16 @@ body {
 
 .button-picture:hover {
     cursor: pointer;
-    transform: scale(1.02);
+    animation: portraitTransform 1s;
+}
+
+@keyframes portraitTransform {
+    0% {
+        transform: scale(1.02)
+    }
+    50% {
+        transform: scale(1);
+    }
 }
 
 .button-name {
