@@ -74,7 +74,7 @@ body {
 
 .carousel {
     display: flex;
-    height: 40rem;
+    height: 50rem;
     background-position: center;
     background-size: cover;
     background-image: url(images/stockbanner2.jpg);
