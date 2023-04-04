@@ -8,7 +8,7 @@ toggleButton.addEventListener('click', () => {
 })
 
 
-const images = ["images/stockbanner2.jpg","images/stockbanner3.jpg","images/stockbanner4.jpg"];
+const images = ["images/carousel1.jpg","images/carousel2.jpg","images/carousel3.jpg","images/carousel4.jpg"];
 const carousel = document.querySelector(".carousel");
 const interval = setInterval(function() {
     startCarousel();

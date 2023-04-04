@@ -74,10 +74,11 @@ body {
 
 .carousel {
     display: flex;
-    height: 50rem;
+    height: 35rem;
     background-position: center;
     background-size: cover;
-    background-image: url(images/stockbanner2.jpg);
+    background-image: url(images/carousel1.jpg);
+    animation: fade 1s ease-in;
 }
 
 .fade {
