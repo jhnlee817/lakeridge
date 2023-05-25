@@ -74,6 +74,17 @@ body {
     }
 }
 
+.table, .th, .td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.th {
+    font-size: 1.5em;
+}
 
 .footer {
     background-color: #f0f8ff;
@@ -128,5 +139,9 @@ td {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .th {
+        font-size: 1em;
     }
 }
